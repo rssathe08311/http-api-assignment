@@ -1,4 +1,13 @@
 {
+  "name": "http_api_assignment",
+  "description": "A simple HTTP example using accept headers.",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Reva Sathe",
   "devDependencies": {
     "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
